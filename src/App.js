@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
+import Week from './Week/Week';
 
 class App extends React.Component {
 
     render() {
         return (
             <div className="App">
-                Your code here
+                <Week />
             </div>
         );
     }

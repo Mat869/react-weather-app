@@ -1,0 +1,19 @@
+.Week {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+@media screen and (min-width: 800px) {
+    .Week {
+        flex-direction: row;
+    }
+}
+
+body {
+    background-image: url('https://www.cambridge.org/elt/blog/wp-content/uploads/2019/02/background-3268840_1920.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
